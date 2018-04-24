@@ -12,4 +12,4 @@ srcdir=$(pwd)
 export DEBFULLNAME="RJ Bergeron"
 export DEBEMAIL="hewt1ojkif@gmail.com"
 
-backportpackage -s artful -d xenial -u ppa:test/ppa -y libssh2
+backportpackage -s artful -d xenial -u ppa:notarrjay/stretch-xen-on-xenial -y libssh2
