@@ -9,4 +9,7 @@ printf 'DEBSIGN_PROGRAM="gpg --no-use-agent --no-tty --trusted-key 0x7D1110294E6
 
 srcdir=$(pwd)
 
+export DEBFULLNAME="RJ Bergeron"
+export DEBEMAIL="hewt1ojkif@gmail.com"
+
 backportpackage -s artful -d xenial -u ppa:test/ppa -y libssh2
